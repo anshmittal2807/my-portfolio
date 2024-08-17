@@ -1,0 +1,195 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+
+     background-color: #6482AD;
+ }
+
+ nav {
+
+
+     text-align: end;
+     background-color: #180161;
+     position: sticky;
+
+
+
+ }
+
+ a {
+     margin-left: 100px;
+     text-decoration: none;
+     color: #E2DAD6;
+     font-size: 25px;
+     font-family: "Playfair Display", serif;
+     margin-top: 20px;
+     animation-name: aboutme;
+     animation-timing-function: ease-in-out;
+     animation-duration: 2s;
+     animation-iteration-count: 1;
+margin-bottom: 5px;
+ }
+
+ a:hover {
+     color: #6482AD;
+ }
+
+ .instagram {
+     margin-right: 100px;
+     display: inline-block;
+ }
+
+ .aboutme {
+     font-size: larger;
+     width: 600px;
+     height: 600px;
+     background-color: #6482AD;
+     display: inline-block;
+     margin-top: 200px;
+     animation-name: aboutme;
+     animation-timing-function: ease-in-out;
+     animation-duration: 2s;
+     animation-iteration-count: 1;
+
+
+ }
+
+ .text {
+     font-size: 30px;
+     margin-left: 25px;
+     color: #E2DAD6;
+ }
+
+ .pic {
+     height: 400px;
+     width: 400px;
+     margin-left: 100px;
+     border-radius: 50%;
+     transform: translateY(-30px);
+     object-fit: fill;
+     animation-name: aboutme;
+     animation-timing-function: ease-in-out;
+     animation-duration: 2s;
+     animation-iteration-count: 1;
+     mix-blend-mode: hard-light;
+
+ }
+
+ .heading {
+     text-decoration: 2px underline;
+     color: #E2DAD6;
+     margin-left: 10px;
+     font-family: "Bodoni Moda SC", serif;
+     font-size: 50px;
+ }
+
+ @keyframes aboutme {
+     from {
+         opacity: 0;
+     }
+
+     to {
+         opacity: 1;
+     }
+
+ }
+
+ .line {
+     border: 2px solid black;
+     height: 1em;
+     width: 1em;
+
+ }
+
+ .skill {
+     height: 450px;
+     width: 450px;
+     margin-left: 100px;
+     border-radius: 50%;
+     transform: translateY(-30px);
+     object-fit: fill;
+     margin-top: 100px;
+     display: inline-block;
+ }
+
+ .skills {
+     font-size: 50px;
+     text-decoration: 2px underline;
+     font-family: "Bodoni Moda SC", serif;
+     color: #E2DAD6;
+     text-align: end;
+     margin-right: 30%;
+     margin-top: 0px;
+     margin-bottom: 10px;
+ }
+
+ .html {
+     border: 2px solid #1F316F;
+     width: 500px;
+     color: #1F316F;
+     background-color: #1F316F;
+     margin-left: 20px
+ }
+
+ .css {
+     border: 2px solid #1F316F;
+     width: 375px;
+     color: #1F316F;
+     background-color: #1F316F;
+     margin-left: 20px
+
+ }
+
+ .javascript {
+     border: 2px solid #1F316F;
+     width: 150px;
+     color: #1F316F;
+     background-color: #1F316F;
+     margin-left: 20px
+ }
+ .jk {
+  color:#E2DAD6;
+  transform: translateX(700px);
+  font-size: 20px;
+  width:  650px;
+  height: 400px;
+ 
+  margin-left: 20px
+ }
+ .margin { margin-left: 20px;
+margin-top: 0px;
+margin-bottom: 0px;}
+.tech{
+    height: 400px;
+    width: 400px;
+    margin-left: 100px;
+    border-radius: 50%;
+    transform: translateY(-500px);
+    object-fit: fill;
+    mix-blend-mode: hard-light;
+}
+  footer {
+    height: 400px;
+    background-color: #180161;
+    color: #E2DAD6;
+  }
+  .contact {
+    color: #E2DAD6;
+      font-family: "Bodoni Moda SC", serif; 
+      margin-left: 30%;
+      padding: 100px;
+  
+
+  }
+
+.contact { font-size: large;
+    text-align: center;
+}
+pre {
+    margin-left: 20px;
+}
+.gg {
+    font-size: medium;
+    text-decoration:none;
+    margin-left: 0px;
+}
